@@ -25,11 +25,12 @@ const divEl = document.createElement('div');
 divEll.innerHTML = 'after';
 messageContainer.after(divEl1);
 
-setTimeout{ () => {
+//setTimeout{ () => {
     divEl1.remove();
-},2000
 
-};
+//},2000
+
+//};
 
 const menuDiv =document.getElementById('menu');
 console.log(menuDiv.className);  // class name gives you classes in string
